@@ -1,0 +1,39 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+p {
+    text-transform: uppercase;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.box {
+    width: 250px;
+    height: 100%;
+    background-color: #808080;
+}
+
+.menu-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 45px;
+    margin-right: 40px;
+}
+
+.link {
+    text-transform: uppercase;
+    color: #fff;
+}
